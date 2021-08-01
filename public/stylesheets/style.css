@@ -7,6 +7,7 @@ body, html {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
+  background-color: darkgrey;
   color: #333;
 }
 
@@ -22,14 +23,18 @@ a:hover {
 }
 
 button {
-  background-color: #225ca3;
-  border: 0;
-  padding: 1%;
-  color: white;
-  font-weight: bold;
-  transition: background-color .1s;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 12px;
   cursor: pointer;
-  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(70, 70, 70);
 }
 
 button:hover {
