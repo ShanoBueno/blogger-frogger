@@ -1,6 +1,8 @@
 const router = require('express').Router();
 const { Blog, User } = require('../../models');
 
+
+
 router.get('/', (req, res) => {
   Blog.findAll({
     attributes: ['id', 'movie', 'title', 'text', 'created_at'],
@@ -84,7 +86,7 @@ router.put('/:id', (req, res) => {
     });
 });
 
-router.delete('/:id', (req, res) => {
+router.delete('/:id',  (req, res) => {
   Blog.destroy({
     where: {
       id: req.params.id
