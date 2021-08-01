@@ -3,7 +3,7 @@ const { Blog, User } = require('../../models');
 
 router.get('/', (req, res) => {
   Blog.findAll({
-    attributes: ['id', 'movie', 'title', 'created_at'],
+    attributes: ['id', 'movie', 'title', 'text', 'created_at'],
     order: [['created_at', 'DESC']],
     include: [
       {
@@ -20,11 +20,11 @@ router.get('/', (req, res) => {
 });
 
 router.get('/:id', (req, res) => {
-  Post.findOne({
+  Blog.findOne({
     where: {
       id: req.params.id
     },
-    attributes: ['id', 'post_url', 'title', 'created_at'],
+    attributes: ['id', 'post_url', 'title', 'text', 'created_at'],
     include: [
       {
         model: User,
