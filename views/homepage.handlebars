@@ -1,0 +1,16 @@
+<ol class="blog-list">
+  {{#each blogs as |blog|}}
+  <li>
+    <article class="blog">
+      <div class="title">
+        <a href="{{blog.title}}" target="_blank">{{blog.title}}</a>
+        <span>({{blog.movie}})</span>
+      </div>
+      <div class="meta">
+        by {{blog.user.username}} on
+        {{created_at}}
+      </div>
+    </article>
+  </li>
+  {{/each}}
+</ol>
