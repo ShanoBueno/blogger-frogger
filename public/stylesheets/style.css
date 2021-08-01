@@ -11,11 +11,7 @@ body, html {
  
   color: #333;
 }
-li {
-background-color: burlywood;
-border-radius: 5px;
-box-shadow: black;
-}
+
 a {
   text-decoration: none;
   color: #225ca3;
@@ -73,6 +69,7 @@ form > div {
 
 form label {
   display: block;
+  background-color: burlywood;
 }
 
 .wrapper {
