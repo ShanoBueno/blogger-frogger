@@ -1,5 +1,6 @@
 * {
-  box-sizing: border-box;
+  box-sizing: border-box; 
+  background-color: darkgrey;
 }
 
 body, html {
@@ -7,10 +8,14 @@ body, html {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  background-color: darkgrey;
+ 
   color: #333;
 }
-
+li {
+background-color: burlywood;
+border-radius: 5px;
+box-shadow: black;
+}
 a {
   text-decoration: none;
   color: #225ca3;
