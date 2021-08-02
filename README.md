@@ -1,5 +1,8 @@
 # Movie Murmurs (coding project)
 
+# Description
+
+
 Have you ever just watched a movie that was really bad and wanted to share that feeling with others? 
 Well look no further, Movie Murmurs is the website FOR YOU!!! 
 All you have to do is go to the website below and click login, then sign up if you are a new user or login if you are an exsisting one.
