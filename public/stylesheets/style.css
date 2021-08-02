@@ -17,6 +17,8 @@ a {
   color: #225ca3;
   font-weight: bold;
   transition: color .1s;
+  background-color: burlywood;
+  border-style: groove;
 }
 
 a:hover {
