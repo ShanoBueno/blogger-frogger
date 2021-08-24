@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box; 
-  background-color: darkgrey;
+  background-color: white;
 }
 
 body, html {
@@ -17,8 +17,7 @@ a {
   color: #225ca3;
   font-weight: bold;
   transition: color .1s;
-  background-color: burlywood;
-  border-style: groove;
+
 }
 
 a:hover {
@@ -37,7 +36,6 @@ button {
   background-color: #4CAF50;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 9px rgb(70, 70, 70);
 }
 
 button:hover {
@@ -84,7 +82,7 @@ form label {
 }
 
 header {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid black;
   display: flex;
   justify-content: space-between;
   align-items: center;
